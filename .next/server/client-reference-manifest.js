@@ -742,35 +742,9 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./src/app/page.tsx": {
+    "(app-client)/./app/layout.tsx": {
       "*": {
-        "id": "(sc_client)/./src/app/page.tsx",
-        "name": "*",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/app/page.tsx",
-        "name": "",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/app/page.tsx",
-        "name": "default",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./src/app/layout.tsx": {
-      "*": {
-        "id": "(sc_client)/./src/app/layout.tsx",
+        "id": "(sc_client)/./app/layout.tsx",
         "name": "*",
         "chunks": [
           "app/layout:static/chunks/app/layout.js"
@@ -778,7 +752,7 @@ self.__RSC_MANIFEST={
         "async": false
       },
       "": {
-        "id": "(sc_client)/./src/app/layout.tsx",
+        "id": "(sc_client)/./app/layout.tsx",
         "name": "",
         "chunks": [
           "app/layout:static/chunks/app/layout.js"
@@ -786,7 +760,7 @@ self.__RSC_MANIFEST={
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./src/app/layout.tsx",
+        "id": "(sc_client)/./app/layout.tsx",
         "name": "default",
         "chunks": [
           "app/layout:static/chunks/app/layout.js"
@@ -794,10 +768,88 @@ self.__RSC_MANIFEST={
         "async": false
       },
       "metadata": {
-        "id": "(sc_client)/./src/app/layout.tsx",
+        "id": "(sc_client)/./app/layout.tsx",
         "name": "metadata",
         "chunks": [
           "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./app/signin/page.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/signin/page.tsx",
+        "name": "*",
+        "chunks": [
+          "app/signin/page:static/chunks/app/signin/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/signin/page.tsx",
+        "name": "",
+        "chunks": [
+          "app/signin/page:static/chunks/app/signin/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/signin/page.tsx",
+        "name": "default",
+        "chunks": [
+          "app/signin/page:static/chunks/app/signin/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./app/signup/page.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/signup/page.tsx",
+        "name": "*",
+        "chunks": [
+          "app/signup/page:static/chunks/app/signup/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/signup/page.tsx",
+        "name": "",
+        "chunks": [
+          "app/signup/page:static/chunks/app/signup/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/signup/page.tsx",
+        "name": "default",
+        "chunks": [
+          "app/signup/page:static/chunks/app/signup/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./app/page.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/page.tsx",
+        "name": "*",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/page.tsx",
+        "name": "",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/page.tsx",
+        "name": "default",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
         ],
         "async": false
       }
@@ -805,7 +857,7 @@ self.__RSC_MANIFEST={
   },
   "edgeSSRModuleMapping": {},
   "cssFiles": {
-    "C:\\Users\\jaysu\\OneDrive\\Desktop\\chakraui\\chakra-ui-and-nextjs-landing-page\\src\\app\\layout": [
+    "C:\\Users\\jaysu\\OneDrive\\Desktop\\chakraui\\chakra-ui-and-nextjs-landing-page\\app\\layout": [
       "static/css/app/layout.css"
     ]
   },
@@ -2506,73 +2558,121 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\jaysu\\OneDrive\\Desktop\\chakraui\\chakra-ui-and-nextjs-landing-page\\src\\app\\page.tsx": {
-      "id": "(app-client)/./src/app/page.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\jaysu\\OneDrive\\Desktop\\chakraui\\chakra-ui-and-nextjs-landing-page\\src\\app\\page.tsx#": {
-      "id": "(app-client)/./src/app/page.tsx",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\jaysu\\OneDrive\\Desktop\\chakraui\\chakra-ui-and-nextjs-landing-page\\src\\app\\page.tsx#default": {
-      "id": "(app-client)/./src/app/page.tsx",
-      "name": "default",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\jaysu\\OneDrive\\Desktop\\chakraui\\chakra-ui-and-nextjs-landing-page\\src\\app\\globals.css#": {
+    "C:\\Users\\jaysu\\OneDrive\\Desktop\\chakraui\\chakra-ui-and-nextjs-landing-page\\app\\globals.css#": {
       "id": "null",
       "name": "default",
       "chunks": [
         "static/css/app/layout.css"
       ]
     },
-    "C:\\Users\\jaysu\\OneDrive\\Desktop\\chakraui\\chakra-ui-and-nextjs-landing-page\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
+    "C:\\Users\\jaysu\\OneDrive\\Desktop\\chakraui\\chakra-ui-and-nextjs-landing-page\\node_modules\\next\\font\\google\\target.css?{\"path\":\"app\\\\layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
       "id": "null",
       "name": "default",
       "chunks": [
         "static/css/app/layout.css"
       ]
     },
-    "C:\\Users\\jaysu\\OneDrive\\Desktop\\chakraui\\chakra-ui-and-nextjs-landing-page\\src\\app\\layout.tsx": {
-      "id": "(app-client)/./src/app/layout.tsx",
+    "C:\\Users\\jaysu\\OneDrive\\Desktop\\chakraui\\chakra-ui-and-nextjs-landing-page\\app\\layout.tsx": {
+      "id": "(app-client)/./app/layout.tsx",
       "name": "*",
       "chunks": [
         "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
-    "C:\\Users\\jaysu\\OneDrive\\Desktop\\chakraui\\chakra-ui-and-nextjs-landing-page\\src\\app\\layout.tsx#": {
-      "id": "(app-client)/./src/app/layout.tsx",
+    "C:\\Users\\jaysu\\OneDrive\\Desktop\\chakraui\\chakra-ui-and-nextjs-landing-page\\app\\layout.tsx#": {
+      "id": "(app-client)/./app/layout.tsx",
       "name": "",
       "chunks": [
         "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
-    "C:\\Users\\jaysu\\OneDrive\\Desktop\\chakraui\\chakra-ui-and-nextjs-landing-page\\src\\app\\layout.tsx#default": {
-      "id": "(app-client)/./src/app/layout.tsx",
+    "C:\\Users\\jaysu\\OneDrive\\Desktop\\chakraui\\chakra-ui-and-nextjs-landing-page\\app\\layout.tsx#default": {
+      "id": "(app-client)/./app/layout.tsx",
       "name": "default",
       "chunks": [
         "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
-    "C:\\Users\\jaysu\\OneDrive\\Desktop\\chakraui\\chakra-ui-and-nextjs-landing-page\\src\\app\\layout.tsx#metadata": {
-      "id": "(app-client)/./src/app/layout.tsx",
+    "C:\\Users\\jaysu\\OneDrive\\Desktop\\chakraui\\chakra-ui-and-nextjs-landing-page\\app\\layout.tsx#metadata": {
+      "id": "(app-client)/./app/layout.tsx",
       "name": "metadata",
       "chunks": [
         "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\jaysu\\OneDrive\\Desktop\\chakraui\\chakra-ui-and-nextjs-landing-page\\app\\signin\\page.tsx": {
+      "id": "(app-client)/./app/signin/page.tsx",
+      "name": "*",
+      "chunks": [
+        "app/signin/page:static/chunks/app/signin/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\jaysu\\OneDrive\\Desktop\\chakraui\\chakra-ui-and-nextjs-landing-page\\app\\signin\\page.tsx#": {
+      "id": "(app-client)/./app/signin/page.tsx",
+      "name": "",
+      "chunks": [
+        "app/signin/page:static/chunks/app/signin/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\jaysu\\OneDrive\\Desktop\\chakraui\\chakra-ui-and-nextjs-landing-page\\app\\signin\\page.tsx#default": {
+      "id": "(app-client)/./app/signin/page.tsx",
+      "name": "default",
+      "chunks": [
+        "app/signin/page:static/chunks/app/signin/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\jaysu\\OneDrive\\Desktop\\chakraui\\chakra-ui-and-nextjs-landing-page\\app\\signup\\page.tsx": {
+      "id": "(app-client)/./app/signup/page.tsx",
+      "name": "*",
+      "chunks": [
+        "app/signup/page:static/chunks/app/signup/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\jaysu\\OneDrive\\Desktop\\chakraui\\chakra-ui-and-nextjs-landing-page\\app\\signup\\page.tsx#": {
+      "id": "(app-client)/./app/signup/page.tsx",
+      "name": "",
+      "chunks": [
+        "app/signup/page:static/chunks/app/signup/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\jaysu\\OneDrive\\Desktop\\chakraui\\chakra-ui-and-nextjs-landing-page\\app\\signup\\page.tsx#default": {
+      "id": "(app-client)/./app/signup/page.tsx",
+      "name": "default",
+      "chunks": [
+        "app/signup/page:static/chunks/app/signup/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\jaysu\\OneDrive\\Desktop\\chakraui\\chakra-ui-and-nextjs-landing-page\\app\\page.tsx": {
+      "id": "(app-client)/./app/page.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\jaysu\\OneDrive\\Desktop\\chakraui\\chakra-ui-and-nextjs-landing-page\\app\\page.tsx#": {
+      "id": "(app-client)/./app/page.tsx",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\jaysu\\OneDrive\\Desktop\\chakraui\\chakra-ui-and-nextjs-landing-page\\app\\page.tsx#default": {
+      "id": "(app-client)/./app/page.tsx",
+      "name": "default",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     }
